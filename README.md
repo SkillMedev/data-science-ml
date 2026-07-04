@@ -9,7 +9,7 @@ Reach for this pack when you own an ML model and need it to survive contact with
 ## Install
 
 - **From the catalog:** [skillme.dev/pack/data-science-ml](https://skillme.dev/pack/data-science-ml) — install the whole pack into Claude in one step.
-- **With the skills CLI:** `npx skills add aouellets/data-science-ml`
+- **With the skills CLI:** `npx skills add SkillMedev/data-science-ml`
 - **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
 
 ## Skills in this pack
