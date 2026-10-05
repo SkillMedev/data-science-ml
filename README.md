@@ -1,16 +1,17 @@
 # Data Science & ML
 
-**For ML teams: ship a trustworthy model end-to-end, from EDA to production drift alerts.** — built in-house by [Skill&nbsp;Me](https://skillme.dev).
+**For ML teams: ship a trustworthy model end-to-end, from EDA to production drift alerts.** — built in-house by [Skill&nbsp;Me](https://skillme.dev/?utm_source=github&utm_medium=readme&utm_campaign=pack-data-science-ml).
 
 Reach for this pack when you own an ML model and need it to survive contact with production. It walks the full lifecycle as a connected discipline: profile the data before you model, engineer leakage-safe features, track experiments so results reproduce, evaluate honestly against real baselines and error slices (for both classic models and LLM systems), document the model for the people it affects, and watch for drift so you retrain on evidence instead of vibes. The payoff is a model you can defend to stakeholders and trust over the long haul - not a notebook that worked once.
 
-⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
-
 ## Install
 
-- **From the catalog:** [skillme.dev/pack/data-science-ml](https://skillme.dev/pack/data-science-ml) — install the whole pack into Claude in one step.
+- **Claude, ChatGPT, Codex, Cursor (connector):** [install the whole pack from skillme.dev](https://skillme.dev/pack/data-science-ml?utm_source=github&utm_medium=readme&utm_campaign=pack-data-science-ml) — one connection, then ask for any skill by name.
+- **As files for Codex, Cursor, or Claude Code:** `npx @skillme/cli add eda-playbook ml-feature-engineering feature-store-design experiment-tracking model-evaluation-report model-card-writer data-drift-monitor --target all`
 - **With the skills CLI:** `npx skills add SkillMedev/data-science-ml`
-- **Manually:** copy any `skills/<slug>/SKILL.md` into your Claude skills directory.
+- **Manually:** copy any `skills/<slug>/SKILL.md` into `.agents/skills/`, `.cursor/skills/`, or `.claude/skills/`.
+
+⭐ **If this is useful, star the repo** — it's how we gauge what to build next.
 
 ## Skills in this pack
 
@@ -25,4 +26,4 @@ Reach for this pack when you own an ML model and need it to survive contact with
 ## License
 
 MIT — see [LICENSE](LICENSE). Skills are portable `SKILL.md` files; the canonical
-copies live in the [Skill&nbsp;Me catalog](https://skillme.dev).
+copies live in the [Skill&nbsp;Me catalog](https://skillme.dev/browse?utm_source=github&utm_medium=readme&utm_campaign=pack-data-science-ml).
